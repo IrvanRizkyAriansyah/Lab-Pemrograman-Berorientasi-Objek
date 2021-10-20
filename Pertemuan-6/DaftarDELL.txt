@@ -1,0 +1,5 @@
+Dell E4310,Intel Core i5,13,8,512,Linux
+Dell Inspriron 14,Intel Core i5,13,8,512,Windows
+Dell Vostro 14,Intel Core i5,13,8,512,Windows
+Dell XPS 13,Intel Core i7,13,8,512,Linux
+Dell XPS 15,Intel Core i7,13,8,512,Windows

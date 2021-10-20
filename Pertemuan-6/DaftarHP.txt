@@ -1,0 +1,5 @@
+Hp Pavilion 14,Intel Core i5,13,8,512,Windows
+Hp Pavilion 15,Intel Core i5,15,8,512,Windows
+Hp Pavilion x360,Intel Core i5,11,4,512,Windows  
+Hp Elitebook 820,Intel Core i5,12,4,512,Windows 
+Hp Envy 13,Intel Core i5,13,8,512,Windows
