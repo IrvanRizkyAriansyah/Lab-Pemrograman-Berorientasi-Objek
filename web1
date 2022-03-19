@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 1 - Typography</title>
+    <style>
+        span {
+            color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- tag typography -->
+    <h1> Contoh Heading </h1>
+    <h1> Heading 1 </h1>
+    <h2> Heading 2 </h2>
+    <h3> Heading 3 </h3>
+    <h4> Heading 4 </h4>
+    <h5> Heading 5 </h5>
+    <h6> Heading 6 </h6>
+
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing <span>elit</span>. Assumenda voluptatibus, possimus 
+        accusantium aliquid <b>consectetur</b> quibusdam quis <b>molestias</b> voluptate <i>veniam harum</i> atque eaque provident deserunt repellendus ut. 
+        Et numquam pariatur praesentium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, laboriosam? Mollitia soluta excepturi, 
+        laboriosam enim odio sed debitis provident quibusdam blanditiis aliquid delectus ipsa illo! Impedit provident doloremque ea quis.
+    </p>
+
+    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, provident beatae magni temporibus tempora est optio blanditiis.<br> 
+        Corporis eius numquam dolor repellendus, corrupti doloremque aperiam illum, modi, nisi sequi pariatur!<br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo veritatis eligendi debitis quae omnis sunt earum optio sapiente<br> 
+        ullam minima aspernatur distinctio soluta ipsum, voluptates dolorum similique possimus temporibus suscipit!<br>
+    </p>
+
+    <p>List kotak</p>
+        <ul type="Square">
+            <li> aaaa </li>
+            <li> bbbb </li>
+            <li> cccc </li>
+            <li> dddd </li>
+        </ul>
+
+    <p>List bulet</p>
+        <ul>
+            <li> aaaa </li>
+            <li> bbbb </li>
+            <li> cccc </li>
+            <li> dddd </li>
+        </ul>
+
+    <p>List angka</p>
+        <ol>
+            <li> aaaa </li>
+            <li> bbbb </li>
+            <li> cccc </li>
+            <li> dddd </li>
+        </ol>
+    </p>
+
+    <p>List angka romawi</p>
+        <ol type="i">
+            <li> aaaa </li>
+            <li> bbbb </li>
+            <li> cccc </li>
+            <li> dddd </li>
+        </ol>
+    </p>
+
+    <p> alamat : <address>Jl. Jalan</address> <br>
+        quote  : <blockquote>woyoooo</blockquote>
+    </p>
+
+
+    <h1> Elemen BLOK </h1>
+    <div> 
+        <h1> JUDUL 1 </h1>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Id, expedita magnam. Dicta aperiam tempore inventore iusto iure at 
+            odit vero dolores itaque, natus fuga, in tempora architecto quo quas mollitia?
+        </p> 
+    </div>
+    <div>
+        <h2> SUB JUDUL</h2>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Id, expedita magnam. Dicta aperiam tempore inventore iusto iure at 
+            odit vero dolores itaque, natus fuga, in tempora architecto quo quas mollitia?
+        </p>
+    </div>
+
+    <header>
+        <h1> header AAAAAAAAAAAAAAAAAAAAAAA </h1>
+    </header>
+    
+    <footer> 
+        footer BBBBBBBBBBBBBBBBBBBBBBB 
+    </footer>
+    
+    <article>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis molestiae 
+            omnis modi itaque quis temporibus tempore alias quos, porro cum accusantium impedit 
+            perferendis commodi voluptas, repellendus, tempora dolor reiciendis. Quisquam?</p>
+    </article>
+
+    <main></main>
+    <section></section>
+    
+    <a href="https://www.detik.com/"> web detik </a>
+    
+    <p>
+        <h2>
+            Searh google <br>
+            klik <a href="http://google.com"> disini </a>
+        </h2>
+    </p>
+
+    <h3> Jenis atribut target link </h3>
+    <ol>
+        <li>
+            <a href="https://hot.detik.com/celeb/d-5990643/kegantengan-kiwil-tak-bisa-hindari-banyak-cewek-mendekat-untuk-dipoligami?_ga=2.108803650.1739080710.1647664430-996943890.1647664430" target="_self">self link</a>
+        </li>
+        <li>
+            <a href="https://finance.detik.com/berita-ekonomi-bisnis/d-5990711/ini-daftar-harga-terbaru-minyak-goreng-di-indomaret--alfamart?_ga=2.207126035.1475347701.1647615790-998010815.1645631087" target="blank">blank link</a>
+        </li>
+    </ol>
+
+    <h3>Elemen Gambar dari internet</h3>
+    <img src="https://th.bing.com/th/id/R.d1cdcca2229220acb315761a5d4a71f5?rik=hKArzq4Wr7Su3A&riu=http%3a%2f%2fjadiberita.com%2fwp-content%2fuploads%2f2017%2f09%2fDanilla-Riyadi-Sindhenapp.jpg&ehk=c%2bYyQsADF4TkLGJN8Ss9gOrKumv2K5RnPT4fjN8MFaY%3d&risl=&pid=ImgRaw&r=0" alt="DANILLA" height="640" />
+    <h3>Elemen Gambar dari local project</h3>
+    <img src="./assets/media/mantra-mantra.jpeg" alt="mantra-mantra" width="640" height="640">
+
+    <h1> ELEMEN VIDEO dari local</h1>
+    <video controls>
+        <source src="./assets/media/what am i to u - aya (live session).mp4">
+    </video>
+
+    <h1> ELEMEN VIDEO dari local</h1>
+    <audio controls width="640" height="360">
+        <source src="./assets/media/Kunto Aji - Sulung (Official Audio) (320 kbps).mp3">
+        
+    </audio>
+
+    <h1> CONTOH TABLE</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="2">NAMA</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Cakecaine</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>2</td>
+                <td>Ayaidk</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h1> contoh iframe</h1>
+    <iframe src="https://www.wikipedia.org/" frameborder="0"></iframe>
+
+    <h1>MAPS</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77762.85290007963!2d-1.9336708075634568!3d52.47752147712665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870942d1b417173%3A0xca81fef0aeee7998!2sBirmingham%2C%20UK!5e0!3m2!1sen!2sid!4v1647667484869!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</body>
+</html>
